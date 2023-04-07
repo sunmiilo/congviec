@@ -1,0 +1,187 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgb(246, 243, 228);
+
+}
+
+.header {
+    background-color: rgba(0, 128, 0, 0.822);
+    width: 100%;
+    height: 30px;
+}
+
+.trai {
+    float: left;
+    margin: 10px;
+    color: white;
+}
+
+.trai a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+}
+
+.phai {
+    float: right;
+    margin: 10px;
+}
+
+.header>.phai>a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding-right: 20px;
+}
+
+.header>.phai>a:hover {
+    color: blue;
+}
+
+.menu{
+    background-color: rgba(0, 128, 0, 0.822);
+    font-weight: bold;
+    color: white;
+}
+
+nav {
+    width: 100%;
+}
+
+.block-heading{
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sanpham {
+    display: flex;
+}
+
+.sanpham h2{
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: pink;
+}
+.sp {
+    margin: 10px;
+    width: 350px;
+    padding: 15px;
+    height: 615px;
+    justify-content: center;
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+    height: 400px;
+}
+
+.nd {
+    padding-top: 30x;
+    text-align: center;
+    margin-bottom: -30px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sp h3 {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sp h6 {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sp h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.button button{
+    border-radius: 5px;
+    background-color: green;
+    width: 95%;
+    height: 50px;
+    justify-content: center;
+    margin-left: 8px;
+}
+
+.sanpham .new {
+    background-color: green;
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    top: 250px;
+}
+
+.sp .off {
+    background-color: red;
+    width: 80px;
+    height: 30px;
+    top: 250px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+
+.banner{
+    margin-bottom: 20px;
+}
+
+.banner img{
+    margin-left: 32px;
+    width: 446px;
+    height: 400px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 446px 446px 446px;
+    gap: 32px;
+    margin-left: 60px;
+}
+
+footer .left{
+    text-align: center;
+}
+
+footer .center{
+    text-align: center;
+}
+
+footer .right{
+    text-align: center;
+}
+
+.footer{
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width : 1024px) {
+    .sp {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width : 480px) {
+    .sp {
+        width: 100%;
+    }
+}
